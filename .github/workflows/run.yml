@@ -11,7 +11,7 @@ jobs:
 
     steps:      
     - name: hello
-      uses: hooopo/repo-track-pipeline@v1.0.6
+      uses: hooopo/repo-track-pipeline@v1.0.7
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
