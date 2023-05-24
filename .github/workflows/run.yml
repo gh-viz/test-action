@@ -11,8 +11,8 @@ jobs:
 
     steps:      
     - name: hello
-      uses: hooopo/repo-track-pipeline@v1.0.4
+      uses: hooopo/repo-track-pipeline@v1.0.5
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }} 
+        access_token: ${{ secrets.GITHUB_TOKEN }} 
         database_url: ${{ secrets.DATABASE_URL }}
-        repo-full-name: ${{ secrets.REPO_FULL_NAME }}
+        repo_full_name: ${{ secrets.REPO_FULL_NAME }}
